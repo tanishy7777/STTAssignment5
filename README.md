@@ -2,7 +2,7 @@ GROUP 28
 
 Laksh Jain - 23110185
 
-Tanish Yelgoe - 23110
+Tanish Yelgoe - 23110328
 
 TASK-1
 
@@ -45,4 +45,169 @@ model_aug.to(device)
 
 ```
 The below is the information about the training parameters of the models.
+
+<div style="overflow-y: scroll; height: 150px; border: 1px solid #ddd; padding: 5px;">
+  
+Layer: resnet.embedder.embedder.convolution.weight | Size: torch.Size([64, 3, 7, 7]) | Requires Grad: True
+Layer: resnet.embedder.embedder.normalization.weight | Size: torch.Size([64]) | Requires Grad: True
+Layer: resnet.embedder.embedder.normalization.bias | Size: torch.Size([64]) | Requires Grad: True
+Layer: resnet.encoder.stages.0.layers.0.shortcut.convolution.weight | Size: torch.Size([256, 64, 1, 1]) | Requires Grad: True
+Layer: resnet.encoder.stages.0.layers.0.shortcut.normalization.weight | Size: torch.Size([256]) | Requires Grad: True
+Layer: resnet.encoder.stages.0.layers.0.shortcut.normalization.bias | Size: torch.Size([256]) | Requires Grad: True
+Layer: resnet.encoder.stages.0.layers.0.layer.0.convolution.weight | Size: torch.Size([64, 64, 1, 1]) | Requires Grad: True
+Layer: resnet.encoder.stages.0.layers.0.layer.0.normalization.weight | Size: torch.Size([64]) | Requires Grad: True
+Layer: resnet.encoder.stages.0.layers.0.layer.0.normalization.bias | Size: torch.Size([64]) | Requires Grad: True
+Layer: resnet.encoder.stages.0.layers.0.layer.1.convolution.weight | Size: torch.Size([64, 64, 3, 3]) | Requires Grad: True
+Layer: resnet.encoder.stages.0.layers.0.layer.1.normalization.weight | Size: torch.Size([64]) | Requires Grad: True
+Layer: resnet.encoder.stages.0.layers.0.layer.1.normalization.bias | Size: torch.Size([64]) | Requires Grad: True
+Layer: resnet.encoder.stages.0.layers.0.layer.2.convolution.weight | Size: torch.Size([256, 64, 1, 1]) | Requires Grad: True
+Layer: resnet.encoder.stages.0.layers.0.layer.2.normalization.weight | Size: torch.Size([256]) | Requires Grad: True
+Layer: resnet.encoder.stages.0.layers.0.layer.2.normalization.bias | Size: torch.Size([256]) | Requires Grad: True
+Layer: resnet.encoder.stages.0.layers.1.layer.0.convolution.weight | Size: torch.Size([64, 256, 1, 1]) | Requires Grad: True
+Layer: resnet.encoder.stages.0.layers.1.layer.0.normalization.weight | Size: torch.Size([64]) | Requires Grad: True
+Layer: resnet.encoder.stages.0.layers.1.layer.0.normalization.bias | Size: torch.Size([64]) | Requires Grad: True
+Layer: resnet.encoder.stages.0.layers.1.layer.1.convolution.weight | Size: torch.Size([64, 64, 3, 3]) | Requires Grad: True
+Layer: resnet.encoder.stages.0.layers.1.layer.1.normalization.weight | Size: torch.Size([64]) | Requires Grad: True
+Layer: resnet.encoder.stages.0.layers.1.layer.1.normalization.bias | Size: torch.Size([64]) | Requires Grad: True
+Layer: resnet.encoder.stages.0.layers.1.layer.2.convolution.weight | Size: torch.Size([256, 64, 1, 1]) | Requires Grad: True
+Layer: resnet.encoder.stages.0.layers.1.layer.2.normalization.weight | Size: torch.Size([256]) | Requires Grad: True
+Layer: resnet.encoder.stages.0.layers.1.layer.2.normalization.bias | Size: torch.Size([256]) | Requires Grad: True
+Layer: resnet.encoder.stages.0.layers.2.layer.0.convolution.weight | Size: torch.Size([64, 256, 1, 1]) | Requires Grad: True
+Layer: resnet.encoder.stages.0.layers.2.layer.0.normalization.weight | Size: torch.Size([64]) | Requires Grad: True
+Layer: resnet.encoder.stages.0.layers.2.layer.0.normalization.bias | Size: torch.Size([64]) | Requires Grad: True
+Layer: resnet.encoder.stages.0.layers.2.layer.1.convolution.weight | Size: torch.Size([64, 64, 3, 3]) | Requires Grad: True
+Layer: resnet.encoder.stages.0.layers.2.layer.1.normalization.weight | Size: torch.Size([64]) | Requires Grad: True
+Layer: resnet.encoder.stages.0.layers.2.layer.1.normalization.bias | Size: torch.Size([64]) | Requires Grad: True
+Layer: resnet.encoder.stages.0.layers.2.layer.2.convolution.weight | Size: torch.Size([256, 64, 1, 1]) | Requires Grad: True
+Layer: resnet.encoder.stages.0.layers.2.layer.2.normalization.weight | Size: torch.Size([256]) | Requires Grad: True
+Layer: resnet.encoder.stages.0.layers.2.layer.2.normalization.bias | Size: torch.Size([256]) | Requires Grad: True
+Layer: resnet.encoder.stages.1.layers.0.shortcut.convolution.weight | Size: torch.Size([512, 256, 1, 1]) | Requires Grad: True
+Layer: resnet.encoder.stages.1.layers.0.shortcut.normalization.weight | Size: torch.Size([512]) | Requires Grad: True
+Layer: resnet.encoder.stages.1.layers.0.shortcut.normalization.bias | Size: torch.Size([512]) | Requires Grad: True
+Layer: resnet.encoder.stages.1.layers.0.layer.0.convolution.weight | Size: torch.Size([128, 256, 1, 1]) | Requires Grad: True
+Layer: resnet.encoder.stages.1.layers.0.layer.0.normalization.weight | Size: torch.Size([128]) | Requires Grad: True
+Layer: resnet.encoder.stages.1.layers.0.layer.0.normalization.bias | Size: torch.Size([128]) | Requires Grad: True
+Layer: resnet.encoder.stages.1.layers.0.layer.1.convolution.weight | Size: torch.Size([128, 128, 3, 3]) | Requires Grad: True
+Layer: resnet.encoder.stages.1.layers.0.layer.1.normalization.weight | Size: torch.Size([128]) | Requires Grad: True
+Layer: resnet.encoder.stages.1.layers.0.layer.1.normalization.bias | Size: torch.Size([128]) | Requires Grad: True
+Layer: resnet.encoder.stages.1.layers.0.layer.2.convolution.weight | Size: torch.Size([512, 128, 1, 1]) | Requires Grad: True
+Layer: resnet.encoder.stages.1.layers.0.layer.2.normalization.weight | Size: torch.Size([512]) | Requires Grad: True
+Layer: resnet.encoder.stages.1.layers.0.layer.2.normalization.bias | Size: torch.Size([512]) | Requires Grad: True
+Layer: resnet.encoder.stages.1.layers.1.layer.0.convolution.weight | Size: torch.Size([128, 512, 1, 1]) | Requires Grad: True
+Layer: resnet.encoder.stages.1.layers.1.layer.0.normalization.weight | Size: torch.Size([128]) | Requires Grad: True
+Layer: resnet.encoder.stages.1.layers.1.layer.0.normalization.bias | Size: torch.Size([128]) | Requires Grad: True
+Layer: resnet.encoder.stages.1.layers.1.layer.1.convolution.weight | Size: torch.Size([128, 128, 3, 3]) | Requires Grad: True
+Layer: resnet.encoder.stages.1.layers.1.layer.1.normalization.weight | Size: torch.Size([128]) | Requires Grad: True
+Layer: resnet.encoder.stages.1.layers.1.layer.1.normalization.bias | Size: torch.Size([128]) | Requires Grad: True
+Layer: resnet.encoder.stages.1.layers.1.layer.2.convolution.weight | Size: torch.Size([512, 128, 1, 1]) | Requires Grad: True
+Layer: resnet.encoder.stages.1.layers.1.layer.2.normalization.weight | Size: torch.Size([512]) | Requires Grad: True
+Layer: resnet.encoder.stages.1.layers.1.layer.2.normalization.bias | Size: torch.Size([512]) | Requires Grad: True
+Layer: resnet.encoder.stages.1.layers.2.layer.0.convolution.weight | Size: torch.Size([128, 512, 1, 1]) | Requires Grad: True
+Layer: resnet.encoder.stages.1.layers.2.layer.0.normalization.weight | Size: torch.Size([128]) | Requires Grad: True
+Layer: resnet.encoder.stages.1.layers.2.layer.0.normalization.bias | Size: torch.Size([128]) | Requires Grad: True
+Layer: resnet.encoder.stages.1.layers.2.layer.1.convolution.weight | Size: torch.Size([128, 128, 3, 3]) | Requires Grad: True
+Layer: resnet.encoder.stages.1.layers.2.layer.1.normalization.weight | Size: torch.Size([128]) | Requires Grad: True
+Layer: resnet.encoder.stages.1.layers.2.layer.1.normalization.bias | Size: torch.Size([128]) | Requires Grad: True
+Layer: resnet.encoder.stages.1.layers.2.layer.2.convolution.weight | Size: torch.Size([512, 128, 1, 1]) | Requires Grad: True
+Layer: resnet.encoder.stages.1.layers.2.layer.2.normalization.weight | Size: torch.Size([512]) | Requires Grad: True
+Layer: resnet.encoder.stages.1.layers.2.layer.2.normalization.bias | Size: torch.Size([512]) | Requires Grad: True
+Layer: resnet.encoder.stages.1.layers.3.layer.0.convolution.weight | Size: torch.Size([128, 512, 1, 1]) | Requires Grad: True
+Layer: resnet.encoder.stages.1.layers.3.layer.0.normalization.weight | Size: torch.Size([128]) | Requires Grad: True
+Layer: resnet.encoder.stages.1.layers.3.layer.0.normalization.bias | Size: torch.Size([128]) | Requires Grad: True
+Layer: resnet.encoder.stages.1.layers.3.layer.1.convolution.weight | Size: torch.Size([128, 128, 3, 3]) | Requires Grad: True
+Layer: resnet.encoder.stages.1.layers.3.layer.1.normalization.weight | Size: torch.Size([128]) | Requires Grad: True
+Layer: resnet.encoder.stages.1.layers.3.layer.1.normalization.bias | Size: torch.Size([128]) | Requires Grad: True
+Layer: resnet.encoder.stages.1.layers.3.layer.2.convolution.weight | Size: torch.Size([512, 128, 1, 1]) | Requires Grad: True
+Layer: resnet.encoder.stages.1.layers.3.layer.2.normalization.weight | Size: torch.Size([512]) | Requires Grad: True
+Layer: resnet.encoder.stages.1.layers.3.layer.2.normalization.bias | Size: torch.Size([512]) | Requires Grad: True
+Layer: resnet.encoder.stages.2.layers.0.shortcut.convolution.weight | Size: torch.Size([1024, 512, 1, 1]) | Requires Grad: True
+Layer: resnet.encoder.stages.2.layers.0.shortcut.normalization.weight | Size: torch.Size([1024]) | Requires Grad: True
+Layer: resnet.encoder.stages.2.layers.0.shortcut.normalization.bias | Size: torch.Size([1024]) | Requires Grad: True
+Layer: resnet.encoder.stages.2.layers.0.layer.0.convolution.weight | Size: torch.Size([256, 512, 1, 1]) | Requires Grad: True
+Layer: resnet.encoder.stages.2.layers.0.layer.0.normalization.weight | Size: torch.Size([256]) | Requires Grad: True
+Layer: resnet.encoder.stages.2.layers.0.layer.0.normalization.bias | Size: torch.Size([256]) | Requires Grad: True
+Layer: resnet.encoder.stages.2.layers.0.layer.1.convolution.weight | Size: torch.Size([256, 256, 3, 3]) | Requires Grad: True
+Layer: resnet.encoder.stages.2.layers.0.layer.1.normalization.weight | Size: torch.Size([256]) | Requires Grad: True
+Layer: resnet.encoder.stages.2.layers.0.layer.1.normalization.bias | Size: torch.Size([256]) | Requires Grad: True
+Layer: resnet.encoder.stages.2.layers.0.layer.2.convolution.weight | Size: torch.Size([1024, 256, 1, 1]) | Requires Grad: True
+Layer: resnet.encoder.stages.2.layers.0.layer.2.normalization.weight | Size: torch.Size([1024]) | Requires Grad: True
+Layer: resnet.encoder.stages.2.layers.0.layer.2.normalization.bias | Size: torch.Size([1024]) | Requires Grad: True
+Layer: resnet.encoder.stages.2.layers.1.layer.0.convolution.weight | Size: torch.Size([256, 1024, 1, 1]) | Requires Grad: True
+Layer: resnet.encoder.stages.2.layers.1.layer.0.normalization.weight | Size: torch.Size([256]) | Requires Grad: True
+Layer: resnet.encoder.stages.2.layers.1.layer.0.normalization.bias | Size: torch.Size([256]) | Requires Grad: True
+Layer: resnet.encoder.stages.2.layers.1.layer.1.convolution.weight | Size: torch.Size([256, 256, 3, 3]) | Requires Grad: True
+Layer: resnet.encoder.stages.2.layers.1.layer.1.normalization.weight | Size: torch.Size([256]) | Requires Grad: True
+Layer: resnet.encoder.stages.2.layers.1.layer.1.normalization.bias | Size: torch.Size([256]) | Requires Grad: True
+Layer: resnet.encoder.stages.2.layers.1.layer.2.convolution.weight | Size: torch.Size([1024, 256, 1, 1]) | Requires Grad: True
+Layer: resnet.encoder.stages.2.layers.1.layer.2.normalization.weight | Size: torch.Size([1024]) | Requires Grad: True
+Layer: resnet.encoder.stages.2.layers.1.layer.2.normalization.bias | Size: torch.Size([1024]) | Requires Grad: True
+Layer: resnet.encoder.stages.2.layers.2.layer.0.convolution.weight | Size: torch.Size([256, 1024, 1, 1]) | Requires Grad: True
+Layer: resnet.encoder.stages.2.layers.2.layer.0.normalization.weight | Size: torch.Size([256]) | Requires Grad: True
+Layer: resnet.encoder.stages.2.layers.2.layer.0.normalization.bias | Size: torch.Size([256]) | Requires Grad: True
+Layer: resnet.encoder.stages.2.layers.2.layer.1.convolution.weight | Size: torch.Size([256, 256, 3, 3]) | Requires Grad: True
+Layer: resnet.encoder.stages.2.layers.2.layer.1.normalization.weight | Size: torch.Size([256]) | Requires Grad: True
+Layer: resnet.encoder.stages.2.layers.2.layer.1.normalization.bias | Size: torch.Size([256]) | Requires Grad: True
+Layer: resnet.encoder.stages.2.layers.2.layer.2.convolution.weight | Size: torch.Size([1024, 256, 1, 1]) | Requires Grad: True
+Layer: resnet.encoder.stages.2.layers.2.layer.2.normalization.weight | Size: torch.Size([1024]) | Requires Grad: True
+Layer: resnet.encoder.stages.2.layers.2.layer.2.normalization.bias | Size: torch.Size([1024]) | Requires Grad: True
+Layer: resnet.encoder.stages.2.layers.3.layer.0.convolution.weight | Size: torch.Size([256, 1024, 1, 1]) | Requires Grad: True
+Layer: resnet.encoder.stages.2.layers.3.layer.0.normalization.weight | Size: torch.Size([256]) | Requires Grad: True
+Layer: resnet.encoder.stages.2.layers.3.layer.0.normalization.bias | Size: torch.Size([256]) | Requires Grad: True
+Layer: resnet.encoder.stages.2.layers.3.layer.1.convolution.weight | Size: torch.Size([256, 256, 3, 3]) | Requires Grad: True
+Layer: resnet.encoder.stages.2.layers.3.layer.1.normalization.weight | Size: torch.Size([256]) | Requires Grad: True
+Layer: resnet.encoder.stages.2.layers.3.layer.1.normalization.bias | Size: torch.Size([256]) | Requires Grad: True
+Layer: resnet.encoder.stages.2.layers.3.layer.2.convolution.weight | Size: torch.Size([1024, 256, 1, 1]) | Requires Grad: True
+Layer: resnet.encoder.stages.2.layers.3.layer.2.normalization.weight | Size: torch.Size([1024]) | Requires Grad: True
+Layer: resnet.encoder.stages.2.layers.3.layer.2.normalization.bias | Size: torch.Size([1024]) | Requires Grad: True
+Layer: resnet.encoder.stages.2.layers.4.layer.0.convolution.weight | Size: torch.Size([256, 1024, 1, 1]) | Requires Grad: True
+Layer: resnet.encoder.stages.2.layers.4.layer.0.normalization.weight | Size: torch.Size([256]) | Requires Grad: True
+Layer: resnet.encoder.stages.2.layers.4.layer.0.normalization.bias | Size: torch.Size([256]) | Requires Grad: True
+Layer: resnet.encoder.stages.2.layers.4.layer.1.convolution.weight | Size: torch.Size([256, 256, 3, 3]) | Requires Grad: True
+Layer: resnet.encoder.stages.2.layers.4.layer.1.normalization.weight | Size: torch.Size([256]) | Requires Grad: True
+Layer: resnet.encoder.stages.2.layers.4.layer.1.normalization.bias | Size: torch.Size([256]) | Requires Grad: True
+Layer: resnet.encoder.stages.2.layers.4.layer.2.convolution.weight | Size: torch.Size([1024, 256, 1, 1]) | Requires Grad: True
+Layer: resnet.encoder.stages.2.layers.4.layer.2.normalization.weight | Size: torch.Size([1024]) | Requires Grad: True
+Layer: resnet.encoder.stages.2.layers.4.layer.2.normalization.bias | Size: torch.Size([1024]) | Requires Grad: True
+Layer: resnet.encoder.stages.2.layers.5.layer.0.convolution.weight | Size: torch.Size([256, 1024, 1, 1]) | Requires Grad: True
+Layer: resnet.encoder.stages.2.layers.5.layer.0.normalization.weight | Size: torch.Size([256]) | Requires Grad: True
+Layer: resnet.encoder.stages.2.layers.5.layer.0.normalization.bias | Size: torch.Size([256]) | Requires Grad: True
+Layer: resnet.encoder.stages.2.layers.5.layer.1.convolution.weight | Size: torch.Size([256, 256, 3, 3]) | Requires Grad: True
+Layer: resnet.encoder.stages.2.layers.5.layer.1.normalization.weight | Size: torch.Size([256]) | Requires Grad: True
+Layer: resnet.encoder.stages.2.layers.5.layer.1.normalization.bias | Size: torch.Size([256]) | Requires Grad: True
+Layer: resnet.encoder.stages.2.layers.5.layer.2.convolution.weight | Size: torch.Size([1024, 256, 1, 1]) | Requires Grad: True
+Layer: resnet.encoder.stages.2.layers.5.layer.2.normalization.weight | Size: torch.Size([1024]) | Requires Grad: True
+Layer: resnet.encoder.stages.2.layers.5.layer.2.normalization.bias | Size: torch.Size([1024]) | Requires Grad: True
+Layer: resnet.encoder.stages.3.layers.0.shortcut.convolution.weight | Size: torch.Size([2048, 1024, 1, 1]) | Requires Grad: True
+Layer: resnet.encoder.stages.3.layers.0.shortcut.normalization.weight | Size: torch.Size([2048]) | Requires Grad: True
+Layer: resnet.encoder.stages.3.layers.0.shortcut.normalization.bias | Size: torch.Size([2048]) | Requires Grad: True
+Layer: resnet.encoder.stages.3.layers.0.layer.0.convolution.weight | Size: torch.Size([512, 1024, 1, 1]) | Requires Grad: True
+Layer: resnet.encoder.stages.3.layers.0.layer.0.normalization.weight | Size: torch.Size([512]) | Requires Grad: True
+Layer: resnet.encoder.stages.3.layers.0.layer.0.normalization.bias | Size: torch.Size([512]) | Requires Grad: True
+Layer: resnet.encoder.stages.3.layers.0.layer.1.convolution.weight | Size: torch.Size([512, 512, 3, 3]) | Requires Grad: True
+Layer: resnet.encoder.stages.3.layers.0.layer.1.normalization.weight | Size: torch.Size([512]) | Requires Grad: True
+Layer: resnet.encoder.stages.3.layers.0.layer.1.normalization.bias | Size: torch.Size([512]) | Requires Grad: True
+Layer: resnet.encoder.stages.3.layers.0.layer.2.convolution.weight | Size: torch.Size([2048, 512, 1, 1]) | Requires Grad: True
+Layer: resnet.encoder.stages.3.layers.0.layer.2.normalization.weight | Size: torch.Size([2048]) | Requires Grad: True
+Layer: resnet.encoder.stages.3.layers.0.layer.2.normalization.bias | Size: torch.Size([2048]) | Requires Grad: True
+Layer: resnet.encoder.stages.3.layers.1.layer.0.convolution.weight | Size: torch.Size([512, 2048, 1, 1]) | Requires Grad: True
+Layer: resnet.encoder.stages.3.layers.1.layer.0.normalization.weight | Size: torch.Size([512]) | Requires Grad: True
+Layer: resnet.encoder.stages.3.layers.1.layer.0.normalization.bias | Size: torch.Size([512]) | Requires Grad: True
+Layer: resnet.encoder.stages.3.layers.1.layer.1.convolution.weight | Size: torch.Size([512, 512, 3, 3]) | Requires Grad: True
+Layer: resnet.encoder.stages.3.layers.1.layer.1.normalization.weight | Size: torch.Size([512]) | Requires Grad: True
+Layer: resnet.encoder.stages.3.layers.1.layer.1.normalization.bias | Size: torch.Size([512]) | Requires Grad: True
+Layer: resnet.encoder.stages.3.layers.1.layer.2.convolution.weight | Size: torch.Size([2048, 512, 1, 1]) | Requires Grad: True
+Layer: resnet.encoder.stages.3.layers.1.layer.2.normalization.weight | Size: torch.Size([2048]) | Requires Grad: True
+Layer: resnet.encoder.stages.3.layers.1.layer.2.normalization.bias | Size: torch.Size([2048]) | Requires Grad: True
+Layer: resnet.encoder.stages.3.layers.2.layer.0.convolution.weight | Size: torch.Size([512, 2048, 1, 1]) | Requires Grad: True
+Layer: resnet.encoder.stages.3.layers.2.layer.0.normalization.weight | Size: torch.Size([512]) | Requires Grad: True
+Layer: resnet.encoder.stages.3.layers.2.layer.0.normalization.bias | Size: torch.Size([512]) | Requires Grad: True
+Layer: resnet.encoder.stages.3.layers.2.layer.1.convolution.weight | Size: torch.Size([512, 512, 3, 3]) | Requires Grad: True
+Layer: resnet.encoder.stages.3.layers.2.layer.1.normalization.weight | Size: torch.Size([512]) | Requires Grad: True
+Layer: resnet.encoder.stages.3.layers.2.layer.1.normalization.bias | Size: torch.Size([512]) | Requires Grad: True
+Layer: resnet.encoder.stages.3.layers.2.layer.2.convolution.weight | Size: torch.Size([2048, 512, 1, 1]) | Requires Grad: True
+Layer: resnet.encoder.stages.3.layers.2.layer.2.normalization.weight | Size: torch.Size([2048]) | Requires Grad: True
+Layer: resnet.encoder.stages.3.layers.2.layer.2.normalization.bias | Size: torch.Size([2048]) | Requires Grad: True
+Layer: classifier.1.weight | Size: torch.Size([2, 2048]) | Requires Grad: True
+Layer: classifier.1.bias | Size: torch.Size([2]) | Requires Grad: True
+</div>
 
