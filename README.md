@@ -14,11 +14,13 @@ Initially we have **112** images in train set and **28** images in test set. The
 
 For every image in train set, we apply augmentation function (on applying function once, the image is augmented thrice) 2 times. Hence, the number of augmented images is 112 * 2 = **224**. Hence, total number of images in train set is 112 + 224 = **336**.
 
+![image-2.png](images/image_stats.png)
+
 # TASK-2
 
 We load the resnet model from huggingface. Below is the architecture of the resnet model.
 
-![image-2.png](images/image_stats.png)
+![image-2.png](images/resnet-arch.png)
 
 We load the pre-trained weights of the model, and define 2 models: **model_non_aug** and **model_aug** with the **SAME** weights.
 
@@ -210,9 +212,6 @@ Layer: resnet.encoder.stages.3.layers.2.layer.2.normalization.bias | Size: torch
 Layer: classifier.1.weight | Size: torch.Size([2, 2048]) | Requires Grad: True
 Layer: classifier.1.bias | Size: torch.Size([2]) | Requires Grad: True
 </details>
-
-![image-2.png](images/resnet-arch.png)
-
 
 The total number of parameters for both models is equal to **23512130**.
 
