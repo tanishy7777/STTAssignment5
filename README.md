@@ -211,6 +211,9 @@ Layer: classifier.1.weight | Size: torch.Size([2, 2048]) | Requires Grad: True
 Layer: classifier.1.bias | Size: torch.Size([2]) | Requires Grad: True
 </details>
 
+![image-2.png](images/resnet-arch.png)
+
+
 The total number of parameters for both models is equal to **23512130**.
 
 ### EVALUATION METRICS
