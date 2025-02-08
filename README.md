@@ -18,7 +18,7 @@ For every image in train set, we apply augmentation function (on applying functi
 
 We load the resnet model from huggingface. Below is the architecture of the resnet model.
 
-![image-2.png](attachment:image-2.png)
+![image-2.png](images/image_stats.png)
 
 We load the pre-trained weights of the model, and define 2 models: **model_non_aug** and **model_aug** with the **SAME** weights.
 
@@ -254,6 +254,8 @@ F1 Score:  0.4556
 ```
 
 The plots for the metrics when training epoch wise are given below:
+
+![image-2.png](images/eval_metrics.png)
 
 ### RESULT ANALYSIS
 
